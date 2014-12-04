@@ -7,7 +7,7 @@ To build this project use
 
 To run this project with Maven use
 
-    mvn camel:run
+    run the JavaSpringMain main method()
 
 For more help see the Apache Camel documentation
 
