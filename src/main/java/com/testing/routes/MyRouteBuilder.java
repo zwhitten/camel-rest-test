@@ -15,7 +15,7 @@ public class MyRouteBuilder extends RouteBuilder{
     @Override
     public void configure() throws Exception {
         restConfiguration().component("jetty").host("0.0.0.0").port(80)
-            .bindingMode(RestBindingMode.auto);
+            .bindingMode(RestBindingMode.off);
 
         rest("/testApp")
             .get("/data").route()
